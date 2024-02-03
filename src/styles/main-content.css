@@ -140,3 +140,40 @@
 .offer__scroll-container::-webkit-scrollbar-thumb {
     background-color: transparent;
 }
+
+/* Cards Palylist */
+
+.offer__list-item {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cards {
+    position: relative;
+    width: 13.75rem;
+    height: 12.5rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.cards span {
+    padding: 1rem;
+    position: absolute;
+    color: var(--text-base-light);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.offer__list-item img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 6.6875rem;
+    transform: rotate(25deg) translate(18%, -2%);
+}
+
+
