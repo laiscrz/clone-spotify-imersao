@@ -100,7 +100,7 @@
 
 /* PLAYLIST */
 .playlist-container{
-    height: 68vh;
+    min-height: 68vh;
     padding-top: 1rem;
     margin: 0.625rem;
     border-radius: 0.625rem;
@@ -176,4 +176,63 @@
     transform: rotate(25deg) translate(18%, -2%);
 }
 
+/* Color Cards */
+.card1 {
+    background-color: var(--card1);
+}
 
+.card2 {
+    background-color: var(--card2);
+}
+
+.card3 {
+    background: var(--card3);
+}
+
+.card4 {
+    background: var(--card4);
+}
+
+.card5 {
+    background: var(--card5);
+}
+
+.card6 {
+    background: var(--card6);
+}
+
+.card7 {
+    background: var(--card7);
+}
+
+.card8 {
+    background: var(--card8);
+}
+
+.card9 {
+    background: var(--card9);
+}
+
+.card10 {
+    background: var(--card10);
+}
+
+.card11 {
+    background: var(--card11);
+}
+
+.card12 {
+    background: var(--card12);
+}
+
+.card13 {
+    background: var(--card13);
+}
+
+.card14 {
+    background: var(--card14);
+}
+
+.card15 {
+    background: var(--card15);
+}
