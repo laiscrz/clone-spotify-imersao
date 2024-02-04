@@ -150,7 +150,7 @@
 }
 
 .sidebar .cookies {
-    margin: 1.6625rem 1.25rem;
+    margin: 1.225rem 1.25rem;
 }
 
 .sidebar .cookies a {
@@ -181,4 +181,49 @@
 .languages .languages__button:hover {
     border: 3px solid #878787;
     transform: scale(1.04);
+}
+
+.disclaimer-premium {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 0.9rem 2.8rem;
+}
+
+.disclaimer-premium .text {
+    flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.8rem 1.8rem;
+    border: 0;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.disclaimer-premium button:hover {
+    transform: scale(1.05);
 }
