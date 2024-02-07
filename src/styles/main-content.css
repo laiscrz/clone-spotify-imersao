@@ -12,7 +12,7 @@
     align-items: center;
     padding: 1rem;
     margin: 0.625rem;
-    border-radius: 0.5rem; 
+    border-radius: 0.5rem;
     background-color: #121212;
 }
 
@@ -27,7 +27,8 @@
     margin-right: 0.9375rem;
 }
 
-.arrow-left, .arrow-right {
+.arrow-left,
+.arrow-right {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,13 +94,13 @@
     border: 0.09rem solid #fff;
 }
 
-.header__login .subscribe:hover, 
+.header__login .subscribe:hover,
 .header__login .login:hover {
     transform: scale(1.04);
 }
 
 /* PLAYLIST */
-.playlist-container{
+.playlist-container {
     min-height: 68vh;
     padding-top: 1rem;
     margin: 0.625rem;
@@ -107,18 +108,18 @@
     background-color: #121212;
 }
 
-.playlist{
+.playlist {
     margin: 1.5rem;
 }
 
-.playlist #greeting{
+.playlist #greeting {
     color: var(--text-base-light);
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 3rem;
 }
 
-.playlist .session{
+.playlist .session {
     color: var(--text-base-light);
     font-size: 1.2rem;
     font-weight: 700;
@@ -144,11 +145,21 @@
 /* Cards Palylist */
 
 .offer__list-item {
+    /*
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
     margin-bottom: 1rem;
+    */
+
+    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
+    display: grid;
+    /* define o modelo de layout do elemento como uma grade */
+    gap: 1rem;
+    grid-gap: 2rem;
+    /* não é usado mais */
+    margin: 0 auto;
 }
 
 .cards {
