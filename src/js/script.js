@@ -6,6 +6,7 @@ const greetingElement = document.getElementById("greeting")
 // Obtém-se a hora atual do sistema
 const currentHour = new Date().getHours()
 
+/*
 // Define a saudação com base na hora atual
 if (currentHour >= 5 && currentHour < 12) {
     greetingElement.textContent = "Bom dia!"
@@ -14,3 +15,14 @@ if (currentHour >= 5 && currentHour < 12) {
 } else {
     greetingElement.textContent = "Boa Noite!"
 }
+*/
+
+// Forma mais simples
+const greetingMessage =
+  currentHour >= 5 && currentHour < 12
+    ? "Bom dia!"
+    : currentHour >= 12 && currentHour < 18
+    ? "Boa tarde!"
+    : "Boa noite!";
+
+greetingElement.textContent = greetingMessage;
